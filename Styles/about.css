@@ -1,0 +1,122 @@
+
+/* 
+#imgTab{
+  background-color: rgba(4, 69, 4, 0.689); ;
+}
+
+#About{
+    display: grid;
+    grid-template-columns: 50% 50% ;
+}
+#textTab{
+    background-color: rgba(4, 69, 4, 0.689); ;
+    margin-top: 100px;
+}
+.textdiv{
+    color: white;
+
+
+} */
+
+
+#About{
+  background-color: rgb(1 54 1 / 69%); 
+
+}
+#AboutDiv{
+    display: grid;
+    grid-template-columns: 45% 55% ;
+}
+#AboutLeft{
+    display: grid;
+    grid-template-columns: 40% 60%;
+}
+#AboutRight{
+    display: grid;
+    grid-template-columns: 60% 40%;
+}
+#AboutRightContact{
+    align-self: bottom;
+    justify-content: bottom;
+    background-color: orange;
+    width: 60%;
+    height: 40%;
+    border-radius: 10px;
+}
+
+#ImgTab{
+    border: 1px solid rgb(207, 139, 12);
+    display: grid;
+    grid-template-rows: 70% 30%;
+    width: 20rem;
+    margin-top: 5rem;
+    /* margin-left: 21rem; */
+    height: 300px;
+    border-radius: 10px;
+}
+#ImgTabImage{
+    background-color: rgb(207, 139, 12);
+    border-radius: 10px  10px 0px 0px;
+
+}
+#ImgTabBottom{
+    background-color:rgb(207, 139, 12);;
+    color: white;
+    margin: 0px;
+    border-radius: 0px 0px 10px 10px;
+    /* width: 100%; */
+    padding: 5px;
+}
+
+#textdiv{
+    margin-top: 5rem;
+}
+.text{
+    color: white;
+
+}
+#AboutContact{
+    visibility: none;
+    display: none;
+}
+#AboutBottom{
+    background-color: black;
+    height: 5rem;
+}
+
+
+
+
+@media ( max-width: 768px){
+    #AboutDiv{
+    display: grid;
+    grid-template-columns:  80% 20% ;
+   } 
+   #ImgTab
+{
+   width: 90%;
+   height: 500px;
+   margin-left: 30px;
+
+}
+#AboutLeft {
+    display: grid;
+    grid-template-columns: auto;
+    justify-content: center;
+}
+#AboutLeft1{
+    display: none;
+}
+#AboutContact{
+    display: block;
+    visibility: visible;
+    background-color: orange;
+    margin: auto;
+    width: 50%;
+    height: 40%;
+    border-radius: 10px;
+}
+
+
+}
+

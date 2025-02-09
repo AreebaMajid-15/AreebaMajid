@@ -1,0 +1,57 @@
+
+body{
+    margin: 0px;
+    padding: 0px;
+}
+#Nav{
+    display: grid;
+    grid-template-columns: 60% 40%;
+    gap: 10px;
+    background-color: rgb(1 54 1 / 69%);;
+
+}
+#logo{
+    padding-top: 5px;
+    margin-top: 5px;
+    margin-left: 20px;
+    color: rgb(209, 141, 14);
+}
+#tags{
+    padding-top: 5px;
+    padding: 10px;
+    margin-top: 25px;
+
+}
+.Link{
+    margin: 5px;
+    color: white;
+    text-decoration: none;
+    font-size: larger;
+}
+#tagsSmallScreen{
+    visibility: hidden;
+    margin-top: 40px;
+   
+}
+
+@media ( max-width: 768px){
+              #tags {
+                display: none;
+
+              }
+              #textdiv {
+                display: none;
+              }
+              #AboutRightContact{
+                display: none;
+              }
+
+              #tagsSmallScreen{
+                display: block;
+                visibility: visible;
+            }
+
+  
+ }
+
+
