@@ -2,12 +2,16 @@
 body{
     margin: 0px;
     padding: 0px;
+  
+      /* background-color: orange; */
+  
 }
 #Nav{
     display: grid;
     grid-template-columns: 60% 40%;
     gap: 10px;
-    background-color: rgb(1 54 1 / 69%);;
+    background-color: rgb(1 54 1 / 69%);
+    
 
 }
 #logo{
@@ -35,6 +39,15 @@ body{
 }
 
 @media ( max-width: 768px){
+  
+#Nav{
+  display: grid;
+  grid-template-columns: 60% 40%;
+  gap: 10px;
+  background-color: rgb(1 54 1 / 69%);
+  width: 100%;
+
+}
               #tags {
                 display: none;
 
@@ -51,6 +64,10 @@ body{
                 visibility: visible;
             }
 
+  
+ }
+
+ @media ( max-width: 321px){
   
  }
 

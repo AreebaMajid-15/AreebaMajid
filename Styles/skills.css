@@ -1,0 +1,130 @@
+/* 
+body{
+    background-color: orange;
+} */
+
+#SkillUp{
+    background-color: black;
+    border-radius: 0% 0% 50%  50%;
+    height: 50px;
+    color: white;
+    align-items: center;
+    margin: 0px;
+    padding: 0%;
+    
+}
+#SkillsUpHead{
+    margin: 0%;
+    padding: 0%;
+    text-align: center;
+}
+#SkillsMid{
+    background-color: orange;
+     height: 250px;
+     display: grid;
+     grid-template-columns: auto auto auto auto;
+     gap: 15px;
+     /* border: 2px solid black; */
+     width: 50%;
+     text-align: center;
+     justify-content: center;
+     margin: auto;
+     margin-top: 20px;
+     padding: 10px;
+}
+.skill{
+    border: 2px solid white;
+    width: 70px;
+    height: 70px;
+    border-radius: 10px;
+    background-color: white;
+    color: orange;
+    font-weight: bolder;
+    align-items: center;
+    text-align: center;
+   
+}
+#SkillBtm{
+    background-color: black;
+    border-radius: 50% 50% 0%  0%;
+    height: 50px;
+    text-align: center;
+   
+
+}
+
+
+@media ( max-width: 768px){
+    #SkillUp{
+        width: 100%;
+        background-color: black;
+        border-radius: 0% 0% 50%  50%;
+        height: 50px;
+        color: white;
+        align-items: center;
+        margin: 0px;
+        padding: 0%;
+        
+
+    }
+    #SkillsUpHead{
+        text-align: left;
+
+    }
+    #SkillsMid{
+        background-color: orange;
+         height: 350px;
+         display: grid;
+         grid-template-columns: auto auto  auto;
+         gap: 15px;
+         /* border: 2px solid black; */
+         width: 50%;
+         text-align: center;
+         justify-content: center;
+         margin: auto;
+         margin-top: 20px;
+         padding: 10px;
+         margin-left: 10px;
+    }
+    #SkillBtm{
+        width: 100%;
+    }
+
+}
+@media ( max-width: 321px){
+    #SkillUp{
+        width: 100%;
+        background-color: black;
+        border-radius: 0% 0% 50%  50%;
+        height: 50px;
+        color: white;
+        align-items: center;
+        margin: 0px;
+        padding: 0%;
+        
+
+    }
+    #SkillsUpHead{
+        text-align: center;
+
+    }
+    #SkillsMid{
+        background-color: orange;
+         height: 350px;
+         display: grid;
+         grid-template-columns: auto auto ;
+         gap: 15px;
+         /* border: 2px solid black; */
+         width: 50%;
+         text-align: center;
+         justify-content: center;
+         margin: auto;
+         margin-top: 20px;
+         padding: 10px;
+         margin-left: 10px;
+    }
+    #SkillBtm{
+        width: 100%;
+    }
+
+}
