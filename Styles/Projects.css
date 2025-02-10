@@ -43,6 +43,22 @@
     background-color: orange;
 
 }
+.projectskill{
+    border: 2px solid white;
+    width: 30px;
+    height: 20px;
+    border-radius: 10px;
+    background-color: white;
+    color: orange;
+    font-weight: bolder;
+    align-items: center;
+    text-align: center;
+    padding-bottom: 20px;
+    padding-top: 0px;
+    display:  inline-block;
+    margin-top: 0px;
+   margin-bottom: 5px;
+}
 
 .ProjectGitLink{
     background-color: white;
@@ -59,6 +75,17 @@
 
 @media ( max-width: 768px){
 
+    #ProjectHead{
+        text-align: left;
+        color: white;
+        /* height: 300px; */
+        margin: 0px;
+        background-color: black;
+        border-radius: 0% 0% 0%  0%;
+        height: 70px;
+
+    
+    }
     #ProjectDetail{
         /* background-color: rgb(1 54 1 / 69%); */
         display: grid;
