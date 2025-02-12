@@ -1,129 +1,78 @@
-
-/* 
-#imgTab{
-  background-color: rgba(4, 69, 4, 0.689); ;
-}
-
-#About{
-    display: grid;
-    grid-template-columns: 50% 50% ;
-}
-#textTab{
-    background-color: rgba(4, 69, 4, 0.689); ;
-    margin-top: 100px;
-}
-.textdiv{
-    color: white;
-
-
-} */
 body{
     background-color: orange;
 }
-
 #About{
-  background-color: rgb(1 54 1 / 69%); 
-
+  background-color: rgb(1 54 1 / 69%);
+  /* height: 20rem; */
+  /* margin-bottom: 20px; */
+  margin: 0px;
+  padding: 0px;
+  padding-top: 50px;
+  
 }
-#AboutDiv{
-    display: grid;
-    grid-template-columns: 45% 55% ;
-}
-#AboutLeft{
+#AboutTab{
+   
+    background-color: orange;
+    border-radius: 10px;
+    width: 60%;
+    margin: auto;
     display: grid;
     grid-template-columns: 40% 60%;
-}
-#AboutRight{
-    display: grid;
-    grid-template-columns: 60% 40%;
-}
-#AboutRightContact{
-    align-self: bottom;
-    justify-content: bottom;
-    background-color: orange;
-    width: 60%;
-    height: 40%;
-    border-radius: 10px;
+    gap: 10px;
+    margin-bottom: 20px;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
 }
 
-#ImgTab{
-    border: 1px solid rgb(207, 139, 12);
-    display: grid;
-    grid-template-rows: 70% 30%;
-    width: 20rem;
-    margin-top: 5rem;
-    /* margin-left: 21rem; */
-    height: 300px;
-    border-radius: 10px;
-}
-#ImgTabImage{
-    background-color: rgb(207, 139, 12);
-    border-radius: 10px  10px 0px 0px;
-
-}
-#ImgTabBottom{
-    background-color:rgb(207, 139, 12);;
-    color: white;
-    margin: 0px;
-    border-radius: 0px 0px 10px 10px;
-    /* width: 100%; */
-    padding: 5px;
-}
-
-#textdiv{
-    margin-top: 5rem;
-}
-.text{
-    color: white;
-
-}
-#AboutContact{
-    visibility: none;
-    display: none;
-}
 #AboutBottom{
     background-color: black;
-    height: 5rem;
+    height: 50px;
 }
 
-
-
-
-@media ( max-width: 768px){
-    #AboutDiv{
+#AboutContent{
     display: grid;
-    grid-template-columns:  80% 20% ;
-   } 
-   #ImgTab
-{
-   width: 60%;
-   height: 600px;
-   margin-left: 30px;
-
+    grid-template-rows: 60% 40%;
+    padding: 20px;
 }
-#AboutLeft {
-    display: grid;
-    grid-template-columns: auto;
-    justify-content: center;
+#AboutContent1{
+    color: white;
 }
-#AboutLeft1{
-    display: none;
-}
-#AboutContact{
-    display: block;
-    visibility: visible;
-    background-color: orange;
-    margin: auto;
-    width: 50%;
-    height: 40%;
+.Contactlink{
+    text-decoration: none;
+    color: white;
+    background-color: black;
+    display: inline-block;
+    width: auto;
     border-radius: 10px;
-    margin-left: 20px;
+    padding: 5px;
+    margin: 5px;
 }
 
+@media ( max-width: 1100px) {
+    #AboutTab{
+   
+        background-color: orange;
+        border-radius: 10px;
+        width: 60%;
+        margin: auto;
+        display: grid;
+        grid-template-columns: auto;
+        gap: 10px;
+        margin-bottom: 20px;
+        box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+    }
+    #AboutTab  img {
+      width: 90%;
+      margin: auto;
+     text-align: center;
+     text-decoration: center;
 
-}
-
-
-@media ( max-width: 321px){
-  
+    }
+    #AboutContent2Head{
+        color: black;
+    }
+    #AboutContent{
+        display: grid;
+        grid-template-rows: 60% 40%;
+        padding: 20px;
+    }
 }

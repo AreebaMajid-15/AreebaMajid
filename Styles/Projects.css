@@ -36,11 +36,15 @@
 #Project1{
     margin-left: 100px;
     background-color: orange;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+
 
 }
 #Project2{
     margin-left: 100px;
     background-color: orange;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+
 
 }
 .projectskill{

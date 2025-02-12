@@ -81,7 +81,7 @@ body{
         background-color: orange;
          height: 350px;
          display: grid;
-         grid-template-columns: auto auto  auto;
+         grid-template-columns: auto auto ;
          gap: 15px;
          /* border: 2px solid black; */
          width: 50%;
