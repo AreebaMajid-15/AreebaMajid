@@ -4,10 +4,14 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Areeba Majid</title>
+    <link rel="icon" href="img/profile.png" type="image/icon type">
+
     <link rel="stylesheet" href="Styles/navbar.css" />
     <link rel="stylesheet" href="Styles/about.css" />
     <link rel="stylesheet" href="Styles/skills.css">
     <link rel="stylesheet" href="Styles/Projects.css">
+    <link rel="stylesheet" href="Styles/contact.css">
+    <link rel="stylesheet" href="Styles/footer.css">
   </head>
   <body>
     <!--NAVbAR-->
@@ -17,10 +21,12 @@
       </div>
       <div id="tags">
         <a href="" class="Link">Home</a>
-        <a href="" class="Link">About</a>
-        <a href="" class="Link">Skills</a>
-        <a href="" class="Link">Project</a>
-        <a href="" class="Link">Contact Me</a>
+        <a href="#About" class="Link">About</a>
+        <a href="#Skills" class="Link">Skills</a>
+        <a href="#Project" class="Link">Project</a>
+        <a href="#Contact" class="Link">Contact Me</a>
+        <a href=" https://resume-builder-test-new.masaischool.com/resume/public?resumeId=67a64b20dae27d0d64f6168c" target="_blank" class="Link"> Resume</a>
+
       </div>
       <!--Navbar for small Screen-->
       <div id="tagsSmallScreen">
@@ -32,6 +38,8 @@
             <option style="background-color: rgb(209, 141, 14); color: white;border-radius: 10px;" value="Gift Card">Skills</option>
             <option style="background-color: rgb(209, 141, 14); color: white;border-radius: 10px;"  value="Contact">Project</option>
             <option style="background-color: rgb(209, 141, 14); color: white;border-radius: 10px;"  value="Download">Contact Me</option>
+            <option style="background-color: rgb(209, 141, 14); color: white;border-radius: 10px;"  value="Download"> Resume</option>
+
           </select>
    </div>
     </div>
@@ -94,6 +102,10 @@
     <!--ABOUT BOTTOM PART-->
     <div id="AboutBottom">Bottom here</div>
 
+
+
+
+
     <!--SKILSS -->
     <div id="Skills">
       <div id="SkillUp"><h1 id="SkillsUpHead">Technical Skills</h1></div>
@@ -104,7 +116,9 @@
        <div class="skill"><h2>Html</h2></div>  
        <div class="skill"><h2>Css</h2></div>  
        <div class="skill"><h2>C++</h2></div>  
-       <div class="skill"> <h2>None</h2></div>  
+       <div class="skill"> <h3>Chakra UI</h3></div>  
+       <div class="skill"><h2>DS</h2></div>  
+
 
       </div>
       <div id="SkillBtm">Bottom Part</div>   
@@ -126,6 +140,8 @@
           <p> This website allows users to create, view, and manage their to-do tasks. Built using JavaScript, it provides a simple and interactive interface to add new tasks, mark them as completed, and delete them when finished. </p>
           <a href="https://github.com/AreebaMajid-15/Todo-App" target="_blank" class="ProjectGitLink" >GIT    CODE</a>
           <a href="https://areebamajid-15.github.io/TodoManagement/" target="_blank" class="ProjectGitLink">GO LIVE</a>
+          <br> <br>
+
         </div>
         <!--Project 2-->
         <div id="Project2" class="ProjectTab">
@@ -134,11 +150,12 @@
           <div class="projectskill"> <h5>Css</h5></div>  
           <div class="projectskill"> <h5>html</h5></div>  
           <div class="projectskill"> <h5>Bs</h5></div>  
-
+   
           <img src="img/Perfumes.png" alt="Perfumes Project Image" style="width: 90%; height: 150px; border-radius: 10px;">
           <p> This website helps users find and purchase perfumes based on categories like "Boys," "Girls," and "Luxury." Developed with JavaScript, it offers a user-friendly interface for browsing various fragrance options.  </p>
           <a href="https://github.com/AreebaMajid-15/Perfumes" target="_blank" class="ProjectGitLink">GIT CODE</a>
           <a href="https://areebamajid-15.github.io/Perfumes/" target="_blank" class="ProjectGitLink">GO LIVE</a>
+           <br> <br>
 
         </div>
 
@@ -146,6 +163,28 @@
       <br> <br> <br> <br>
 
     </div>
+
+    <!--CONTACT-->
+    <div id="Contact">
+      <h1 id="ConactHead">Contact Me </h1>
+      <form id="ContactForm" action="">
+        <input type="text" placeholder="Enter your name"  id="name" class="FormInput">
+        <input type="email" placeholder="Enter your email" id="email"   class="FormInput">
+        <input type="text" placeholder="Enter your number" id="number" class="FormInput">
+        <input type="text" placeholder="Enter your Feedback" id="Feedback" class="FormInput">
+        <input type="submit" placeholder="Submit" class="FormInput">
+
+      </form>
+    </div>
+
+    <!--FOOTER-->
+    <div id="footer">
+      <br>
+      <h5>Thanks for viewing</h5>
+      <br>
+      <h6>Made with love</h6>
+    </div>
     
   </body>
+  <script src="scripts/Contact.js"></script>
 </html>

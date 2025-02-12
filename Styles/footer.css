@@ -1,0 +1,14 @@
+
+#footer{
+    background-color: black;
+    color: grey;
+    margin: 0px;
+    padding: 0px;
+    height: 80px;
+    text-align: center;
+}
+#footer , h5, h6{
+    margin: 0px;
+    padding: 0px;
+
+}
