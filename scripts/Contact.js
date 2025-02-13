@@ -2,7 +2,7 @@
 // to fetch user data from form
  let form = document.getElementById("ContactForm")
  form.addEventListener("submit", function(){
-    alert("Form working")
+    // alert("Form working")
     event.preventDefault()
     let name = form.name.value ;
     let email = form.email.value ;

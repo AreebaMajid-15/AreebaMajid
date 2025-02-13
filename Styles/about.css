@@ -1,8 +1,8 @@
 body{
-    background-color: orange;
+    background-color: #A5BFCC;
 }
 #About{
-  background-color: rgb(1 54 1 / 69%);
+  background-color: #A5BFCC;
   /* height: 20rem; */
   /* margin-bottom: 20px; */
   margin: 0px;
@@ -12,7 +12,7 @@ body{
 }
 #AboutTab{
    
-    background-color: orange;
+    background-color: #7E99A3;
     border-radius: 10px;
     width: 60%;
     margin: auto;
@@ -24,7 +24,7 @@ body{
 }
 
 #AboutBottom{
-    background-color: black;
+    background-color: #4C585B;
     height: 50px;
 }
 
@@ -34,29 +34,32 @@ body{
     padding: 20px;
 }
 #AboutContent1{
-    color: white;
+    color: #F4EDD3;
 }
 .Contactlink{
     text-decoration: none;
-    color: white;
-    background-color: black;
+    color: #F4EDD3;
+    background-color: #4C585B;
     display: inline-block;
     width: auto;
     border-radius: 10px;
     padding: 5px;
-    margin: 5px;
+    margin: 2px;
 }
+ .Contactlink:hover{
+    box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+ }
 
 @media ( max-width: 1100px) {
     #AboutTab{
    
-        background-color: orange;
+        background-color: #7E99A3;
         border-radius: 10px;
         width: 60%;
         margin: auto;
         display: grid;
         grid-template-columns: auto;
-        gap: 10px;
+        gap: 50px;
         margin-bottom: 20px;
         box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
     }
@@ -68,7 +71,7 @@ body{
 
     }
     #AboutContent2Head{
-        color: black;
+        color: #4C585B;
     }
     #AboutContent{
         display: grid;

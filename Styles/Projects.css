@@ -2,16 +2,16 @@
 
 #ProjectHead{
     text-align: center;
-    color: white;
+    color: #F4EDD3;
     /* height: 300px; */
     margin: 0px;
-    background-color: black;
+    background-color: #4C585B;
     border-radius: 0% 0% 0%  0%;
     height: 70px;
 
 }
 #Project{
-    background-color: rgb(1 54 1 / 69%);
+    background-color: #A5BFCC;
 }
 #ProjectDetail{
     /* background-color: rgb(1 54 1 / 69%); */
@@ -23,7 +23,7 @@
     align-items: center;
 }
 .ProjectTab{
-    background-color: orange;
+    background-color: #7E99A3;
     /* border: 1px solid black; */
     height: auto;
     width: 60%;
@@ -35,38 +35,39 @@
 }
 #Project1{
     margin-left: 100px;
-    background-color: orange;
+    background-color: #7E99A3;
     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    color: #F4EDD3;
 
 
 }
 #Project2{
     margin-left: 100px;
-    background-color: orange;
+    background-color: #7E99A3;
     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
-
+    color: #F4EDD3;
 
 }
 .projectskill{
-    border: 2px solid white;
+    border: 2px solid #F4EDD3;
     width: 40px;
     height: 20px;
     border-radius: 10px;
-    background-color: white;
-    color: orange;
+    background-color:#F4EDD3;
+    color: #7E99A3;
     font-weight: bolder;
     align-items: center;
     text-align: center;
-    padding-bottom: 20px;
-    padding-top: 0px;
+    padding-bottom: 5px;
+    padding-top: 5px;
     display:  inline-block;
     margin-top: 0px;
    margin-bottom: 5px;
 }
 
 .ProjectGitLink{
-    background-color: white;
-    color: orange;
+    background-color:#4C585B;
+    color: #F4EDD3;
     width: 100px;
     height: 50px;
     border-radius: 5px;
@@ -90,10 +91,10 @@
 
     #ProjectHead{
         text-align: left;
-        color: white;
+        color: #F4EDD3;
         /* height: 300px; */
         margin: 0px;
-        background-color: black;
+        background-color: #4C585B;
         border-radius: 0% 0% 0%  0%;
         height: 70px;
 
@@ -119,8 +120,8 @@
     
     }
     .ProjectGitLink{
-        background-color: white;
-        color: orange;
+        background-color:#4C585B;
+    color: #F4EDD3;
         width: 100px;
         height: 50px;
         border-radius: 5px;
