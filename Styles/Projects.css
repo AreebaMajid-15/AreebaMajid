@@ -122,13 +122,16 @@
     .ProjectGitLink{
         background-color:#4C585B;
     color: #F4EDD3;
-        width: 100px;
+        width: 40%;
         height: 50px;
         border-radius: 5px;
         margin: 20px;
         text-decoration: none;
         margin-bottom: 5px;
         display: block;
+        padding-top: 20px;
+        /* padding-bottom: 10px; */
+      
     }
     
 }
