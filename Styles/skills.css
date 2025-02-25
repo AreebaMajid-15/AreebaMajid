@@ -74,7 +74,7 @@ body{
 
     }
     #SkillsUpHead{
-        text-align: left;
+        text-align: center;
 
     }
     #SkillsMid{
@@ -82,7 +82,7 @@ body{
          height: 350px;
          display: grid;
          grid-template-columns: auto auto ;
-         gap: 15px;
+         gap: 20px;
          /* border: 2px solid black; */
          width: 50%;
          text-align: center;
@@ -90,7 +90,7 @@ body{
          margin: auto;
          margin-top: 20px;
          padding: 10px;
-         margin-left: 10px;
+         margin-left: 30px;
     }
     #SkillBtm{
         background-color: #4C585B;
@@ -119,11 +119,11 @@ body{
 
     }
     #SkillsMid{
-        background-color: orange;
+        background-color: #A5BFCC;
          height: 350px;
          display: grid;
          grid-template-columns: auto auto ;
-         gap: 15px;
+         gap: 20px;
          /* border: 2px solid black; */
          width: 50%;
          text-align: center;

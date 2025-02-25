@@ -27,8 +27,7 @@
         <a href="#Skills" class="Link">Skills</a>
         <a href="#Project" class="Link">Project</a>
         <a href="#Contact" class="Link">Contact Me</a>
-        <a href=" https://resume-api-new.masaischool.com/profile/download/resume?resumeId=67a64b20dae27d0d64f6168c&templateName=CrispCanvas&fontSize=medium" download="Areeba-Majid.pdf"  target="_blank" class="Link">Download Resume</a>
-
+       <button id="downloadResume" >Resume</button>
       </div>
       <!--Navbar for small Screen-->
       <div id="tagsSmallScreen">
@@ -60,8 +59,7 @@
            <a href="https://www.linkedin.com/in/areeba-majid04/"  class="Contactlink" target="_blank">Linkdin</a>
            <a href=""  class="Contactlink">+91 7310733456</a>
            <a href="https://github.com/AreebaMajid-15"  class="Contactlink" target="_blank">Github</a>
-           <a href="https://resume-builder-test-new.masaischool.com/resume/public?resumeId=67a64b20dae27d0d64f6168c" target="_blank"  class="Contactlink"> View Resume</a>
-
+           <button id="downloadResume2">Resume</button>           
            
            
         </div>
@@ -90,9 +88,7 @@
       </div>
       <div id="SkillBtm"></div>   
     </div>
-
-    <!--PROJECTS -->
-    <div id="Project">
+    
 
       <h1 id="ProjectHead"> Projects </h1>
 
@@ -134,14 +130,37 @@
     <!--CONTACT-->
     <div id="Contact">
       <h1 id="ConactHead" style="color: black;">Contact Me </h1>
-      <form id="ContactForm" action="">
+      <!-- <form id="ContactForm" action="">
         <input type="text" placeholder="Enter your name"  id="name" class="FormInput">
         <input type="email" placeholder="Enter your email" id="email"   class="FormInput">
         <input type="text" placeholder="Enter your number" id="number" class="FormInput">
         <input type="text" placeholder="Enter your Feedback" id="Feedback" class="FormInput">
         <input type="submit" placeholder="Submit" class="FormInput">
 
-      </form>
+      </form> -->
+      <section id="contact">
+        <form id="ContactForm">
+            <input type="text" id="name" placeholder="Your Name" class="FormInput" required>
+            <input type="email" id="email" placeholder="Your Email" class="FormInput"  required>
+            <textarea id="message" placeholder="Your Message" class="FormInput" style="color: #4C585B; background-color: #F4EDD3; border-radius: 10px;  width: 60%;
+            align-self: center;
+            padding: 5px;
+            margin: 5px;
+            background-color: #F4EDD3;
+            border-radius: 10px;
+            border: none;"  required></textarea>
+            <button type="submit" class="FormInput"style="color: #4C585B; background-color: #F4EDD3; border-radius: 10px;  width: 60%;
+            align-self: center;
+            padding: 5px;
+            margin: 5px;
+            background-color: #F4EDD3;
+            border-radius: 10px;
+            border: none;" >Send Message</button>
+        </form>
+    </section>
+    
+    <script src="script.js"></script>
+    
     </div>
 
     <!--FOOTER-->
@@ -155,5 +174,5 @@
   </body>
   <!-- <script src="scripts/Contact.js"></script> -->
   <script src="scripts/Contact.js"></script>
-  <script></script>
+  <script src="scripts/Resume.js"></script>
 </html>

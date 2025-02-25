@@ -49,7 +49,24 @@ body{
  .Contactlink:hover{
     box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
  }
+#downloadResume2{
+    background-color: #4C585B;
+    color:#F4EDD3 ;
+    /* border-radius: 5px; */
+    border-radius: 10px;
+    padding: 5px;
+    margin: 2px;
 
+}
+#downloadResume{
+    background-color: #4C585B;
+    color:#F4EDD3 ;
+    /* border-radius: 5px; */
+    border-radius: 10px;
+    padding: 5px;
+    margin: 2px;
+
+}
 @media ( max-width: 1100px) {
     #AboutTab{
    
@@ -72,6 +89,13 @@ body{
     }
     #AboutContent2Head{
         color: #4C585B;
+    }
+    #AboutContent2Head{
+        display: none;
+        visibility: hidden;
+    }
+    #AboutContent2{
+        margin-top: 30px;
     }
     #AboutContent{
         display: grid;

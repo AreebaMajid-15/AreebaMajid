@@ -8,7 +8,7 @@ Hi! I'm Areeba Majid, a passionate web developer with a focus on front-end techn
 
 ## Projects
 
-### Project 1: Todos Management Website
+### Project 1: Todos Management Website 
 - A responsive website that stores, mananges and displays tasks.
 - Technologies used: HTML, CSS, JavaScript
 - [Live Demo](https://areebamajid-15.github.io/TodoManagement/) | [GitHub Repo](https://github.com/AreebaMajid-15/TodoManagement)
