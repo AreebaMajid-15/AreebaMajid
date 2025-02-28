@@ -8,7 +8,7 @@
     background-color: #4C585B;
     border-radius: 0% 0% 0%  0%;
     height: 70px;
-
+   
 }
 #Project{
     background-color: #A5BFCC;
@@ -23,6 +23,7 @@
     align-items: center;
 }
 .ProjectTab{
+    margin-top: 20px;
     background-color: #7E99A3;
     /* border: 1px solid black; */
     height: auto;
@@ -97,6 +98,7 @@
         background-color: #4C585B;
         border-radius: 0% 0% 0%  0%;
         height: 70px;
+        margin-bottom: 20px;
 
     
     }
@@ -113,6 +115,7 @@
         align-items: center;
     }
     #Project1{
+        margin-top: 30px;
         margin-left: 30px;
         width: 50%;
         margin: auto;
@@ -120,6 +123,8 @@
     
     }
     #Project2{
+        margin-top: 20px;
+
         margin-left: 30px;
         width: 50%;
         margin: auto;
