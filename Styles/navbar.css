@@ -53,6 +53,72 @@ body{
   
  }
 
+ /* small tag link  */
+ #dropdownMenu {
+  position: fixed;
+  top: 20px;
+  left: 20px;
+  z-index: 1000;
+  background-color: #4C585B;
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+/* Menu button */
+#menuButton {
+  background-color: #4C585B;
+  color: #F4EDD3;
+  padding: 10px 15px;
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+#menuButton:hover {
+  background-color: #F4EDD3;
+  color: #4C585B;
+}
+
+/* Dropdown links (hidden by default) */
+#menuLinks {
+  display: none;
+  flex-direction: column;
+  background-color: #4C585B;
+  padding: 5px 0;
+  border-radius: 0 0 10px 10px;
+}
+
+#menuLinks a {
+  color: #F4EDD3;
+  padding: 10px;
+  text-decoration: none;
+  text-align: right;
+}
+
+#menuLinks a:hover {
+  background-color: #F4EDD3;
+  color: #4C585B;
+}
+
+/* Show dropdown links when active */
+#dropdownMenu.active #menuLinks {
+  display: flex;
+}
+
+/* Example sections */
+section {
+  height: 0vh;
+  padding: 0px;
+  /* border: 1px solid #ddd; */
+}
+/* 
+#About { background-color: #f9f9f9; }
+#Skills { background-color: #e9f7ef; }
+#Projects { background-color: #fce4ec; }
+#Contact { background-color: #e3f2fd; } */
+
+
 @media ( max-width: 1100px){
   
 #Nav{
@@ -79,7 +145,11 @@ body{
                 visibility: visible;
             }
 
-  
+            section {
+              height: 0vh;
+              padding: 0px;
+              /* border: 1px solid #ddd; */
+            }
  }
 
 

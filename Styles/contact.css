@@ -59,3 +59,9 @@ text-align: center;  }
     border-radius: 10px;
     border: none;
 }
+
+.section {
+    height: 0vh; 
+     padding: 0px;
+     /* border: 1px solid #ddd; */
+}

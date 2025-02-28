@@ -25,21 +25,39 @@
         <a href="" class="Link">Home</a>
         <a href="#About" class="Link">About</a>
         <a href="#Skills" class="Link">Skills</a>
-        <a href="#Project" class="Link">Project</a>
+        <a href="#ProjectDetail" class="Link">Project</a>
         <a href="#Contact" class="Link">Contact Me</a>
        <button id="downloadResume" >Resume</button>
       </div>
       <!--Navbar for small Screen-->
-      <div id="tagsSmallScreen">
-        <select style="background-color: #F4EDD3; color: #4C585B; border-radius: 15px; text-align: center;" name="Explore More" >
-          <option style="background-color: #F4EDD3; color: #4C585B; border-radius: 15px;" value="exploreMore">Explore More</option>
-          <option style="background-color: #F4EDD3; color: #4C585B;border-radius: 15px;" value="OurMenu">About</option>
-          <option style="background-color: #F4EDD3; color: #4C585B;border-radius: 15px;" value="Domino's Store">Skills</option>
-          <option style="background-color: #F4EDD3; color: #4C585B;border-radius: 15px;" value="Gift Card">Project</option>
-          <option style="background-color: #F4EDD3; color: #4C585B;border-radius: 15px;"  value="Contact">Contact Me</option>
-          <option style="background-color: #F4EDD3; color: #4C585B;border-radius: 15px;"  value="Download">Download Resume</option>
+      <!-- <div id="tagsSmallScreen">
+        <select 
+            id="sectionDropdown"
+            style="background-color: #F4EDD3; color: #4C585B; border-radius: 15px; text-align: center;"
+            name="Explore More"
+        >
+            <option style="background-color: #F4EDD3; color: #4C585B; border-radius: 15px;" value="">Explore More</option>
+            <option style="background-color: #F4EDD3; color: #4C585B; border-radius: 15px;" value="about">About</option>
+            <option style="background-color: #F4EDD3; color: #4C585B; border-radius: 15px;" value="skills">Skills</option>
+            <option style="background-color: #F4EDD3; color: #4C585B; border-radius: 15px;" value="projects">Projects</option>
+            <option style="background-color: #F4EDD3; color: #4C585B; border-radius: 15px;" value="contact">Contact Me</option>
+            <option style="background-color: #F4EDD3; color: #4C585B; border-radius: 15px;" value="download">Download Resume</option>
         </select>
+    </div> -->
+    
+<div id="tagsSmallScreen">
+  <div id="dropdownMenu">
+    <button id="menuButton">☰ Menu</button>
+    <div id="menuLinks">
+        <a href="#About" class="nav-link" data-section="About">About</a>
+        <a href="#Skills" class="nav-link" data-section="Skills">Skills</a>
+        <a href="#ProjectDetail" class="nav-link" data-section="ProjectDetail">Projects</a>
+        <a href="#Contact" class="nav-link" data-section="contact">Contact</a>
+        <a href="https://drive.google.com/file/d/1DDpRSlt06Kj0e6ikbA0x_gCc6cqiUmVn/view?usp=sharing" target="_blank">Download Resume</a>
+    </div>
+</div>
   
+</div>
    </div>
     </div>
 
@@ -175,4 +193,5 @@
   <!-- <script src="scripts/Contact.js"></script> -->
   <script src="scripts/Contact.js"></script>
   <script src="scripts/Resume.js"></script>
+  <script src="scripts/Navbar.js"></script>
 </html>
