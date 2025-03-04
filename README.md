@@ -38,8 +38,8 @@ To view the code and run the portfolio on your machine:
    ```
 
 ## Contact Me
-- Email: areebamajid04@gmail.com
-- LinkedIn: (https://www.linkedin.com/in/areeba-majid04/)
+-  [Email](areebamajid04@gmail.com)
+-  [Linkdin](https://www.linkedin.com/in/areeba-majid04/)
 
 ## Thank you for visiting my portfolio! 😊
 
