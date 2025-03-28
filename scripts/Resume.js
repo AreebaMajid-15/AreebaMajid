@@ -1,5 +1,5 @@
 document.getElementById("downloadResume").addEventListener("click", function() {
-    const resumeUrl = "https://drive.google.com/file/d/1DDpRSlt06Kj0e6ikbA0x_gCc6cqiUmVn/view?usp=sharing";
+    const resumeUrl = "https://drive.google.com/file/d/12uqLbCvi7WX_SoBOq-vIic2bbWzV6Wpn/view?usp=sharing";
 
     // Open in a new tab
     window.open(resumeUrl, "_blank");
@@ -21,7 +21,7 @@ document.getElementById("downloadResume").addEventListener("click", function() {
 });
 
 document.getElementById("downloadResume2").addEventListener("click", function() {
-    const resumeUrl = "https://drive.google.com/file/d/1DDpRSlt06Kj0e6ikbA0x_gCc6cqiUmVn/view?usp=sharing";
+    const resumeUrl = "https://drive.google.com/file/d/12uqLbCvi7WX_SoBOq-vIic2bbWzV6Wpn/view?usp=sharing";
 
     // Open in a new tab
     window.open(resumeUrl, "_blank");

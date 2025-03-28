@@ -7,14 +7,17 @@ body{
   
 }
 #Nav{
+    margin: 0px;
+    position: fixed; 
     display: grid;
     grid-template-columns: 50% 50%;
     gap: 15px;
-    background-color: #4C585B;
+    background-color: rgb(65 104 231) ;
     position: sticky;
     top: 0;
     overflow: hidden;
    height: 5rem;
+   box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
 }
 /* 
 #navbar {
@@ -25,9 +28,13 @@ body{
 } */
 #logo{
     padding-top: 5px;
-    margin-top: 5px;
-    margin-left: 20px;
-    color: #A5BFCC;
+    margin-top: 10px;
+    margin-left: 40px;
+    color: white;
+    font-size: 1.5rem;
+}
+#logo:hover{
+   color: red;
 }
 #tags{
     padding-top: 5px;
@@ -37,9 +44,14 @@ body{
 }
 .Link{
     margin: 5px;
-    color: #F4EDD3;
+    color: white;
     text-decoration: none;
-    font-size: larger;
+    font-size: 1.5rem;
+}
+
+#downloadResume:hover{
+  background-color: blue;
+  color: white;
 }
 #tagsSmallScreen{
     visibility: hidden;
@@ -47,9 +59,9 @@ body{
    
 }
 .Link:hover {
-  color: #A5BFCC;
+  color: red;
   /* transform: scale(1.3); */
-  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  /* box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px; */
   
  }
 
@@ -59,15 +71,17 @@ body{
   top: 20px;
   left: 20px;
   z-index: 1000;
-  background-color: #4C585B;
+  background-color: white;
   border-radius: 10px;
   overflow: hidden;
+  text-align: right;
+  justify-items: right;
 }
 
 /* Menu button */
 #menuButton {
-  background-color: #4C585B;
-  color: #F4EDD3;
+  background-color: white;
+  color: grey;
   padding: 10px 15px;
   font-size: 16px;
   border: none;
@@ -76,29 +90,29 @@ body{
 }
 
 #menuButton:hover {
-  background-color: #F4EDD3;
-  color: #4C585B;
+  background-color: white;
+  color: grey;
 }
 
 /* Dropdown links (hidden by default) */
 #menuLinks {
   display: none;
   flex-direction: column;
-  background-color: #4C585B;
+  background-color: white;
   padding: 5px 0;
   border-radius: 0 0 10px 10px;
 }
 
 #menuLinks a {
-  color: #F4EDD3;
+  color:  grey;
   padding: 10px;
   text-decoration: none;
   text-align: right;
 }
 
 #menuLinks a:hover {
-  background-color: #F4EDD3;
-  color: #4C585B;
+  background-color:  grey;
+   color: rgb(37, 150, 190);;
 }
 
 /* Show dropdown links when active */
@@ -125,11 +139,19 @@ section {
   display: grid;
   grid-template-columns: 60% 40%;
   gap: 10px;
-  background-color: #4C585B;
+  background-color:rgb(65 104 231);
   width: 100%;
 
 }
-              #tags {
+      
+#logo  {
+ visibility: hidden;
+  display: none;
+  
+}
+
+
+#tags {
                 display: none;
 
               }

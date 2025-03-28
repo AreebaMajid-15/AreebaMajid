@@ -1,9 +1,18 @@
 
+body{
+    margin: 0px;
+    padding: 0px;
+  
+      /* background-color: orange; */
+  
+}
 #Contact{
-    background-color: #A5BFCC; 
+    /* background-color: #A5BFCC;  */
    height: 400px;
     padding: 0px;
     margin: 0px;
+    display: grid;
+    grid-template-columns: 40% 60%;
 }
 
    #ConactHead{
@@ -36,32 +45,71 @@ text-align: center;  }
     text-align: center;
     display: flex;
     flex-direction: column;
-    width: 40%;
+    width: 80%;
     gap: 20px;
     margin: 3rem auto;
-    color: #7E99A3;
+    color: transparent;
     padding: center;
-    background-color:#7E99A3 ;
+    background-color: transparent ;
     padding: 10px;
     border-radius: 10px;
+   box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+
     
 }
 #ContactForm:hover{
-    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+    box-shadow: rgb(65 104 231) 0px 3px 8px;
+
 }
 #ContactForm input{
-    height: 20px;
+    height: 30px;
     width: 60%;
     align-self: center;
     padding: 5px;
     margin: 5px;
-    background-color: #F4EDD3;
-    border-radius: 10px;
+    background-color: transparent;
+    /* border-radius: 10px; */
     border: none;
+    color: grey;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
 }
 
+#contactSection1{
+    padding: 0px;
+    margin-top: 40px;
+    display: grid
+;
+    grid-template-rows: auto;
+    gap: 5px;
+    align-items: center;
+    margin-left: 100px;
+    
+}
 .section {
     height: 0vh; 
      padding: 0px;
      /* border: 1px solid #ddd; */
+}
+
+@media ( max-width: 688px){
+    #Contact{
+        /* background-color: #A5BFCC;  */
+       height: 900px;
+        padding: 0px;
+        margin: 0px;
+        display: grid;
+        grid-template-columns: auto;
+    }
+    #contactSection1{
+        padding: 0px;
+        margin-top: 40px;
+        display: grid;
+        grid-template-rows: auto;
+        gap: 5px;
+        align-items: center;
+     /* margin: auto; */
+        
+    }
+    
+    
 }

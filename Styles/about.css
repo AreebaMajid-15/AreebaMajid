@@ -1,30 +1,37 @@
-body{
+/* body{
     background-color: #A5BFCC;
+} */
+body{
+    margin: 0px;
+    padding: 0px;
+  
+      /* background-color: orange; */
+  
 }
 #About{
-  background-color: #A5BFCC;
+  background-color: white;
   /* height: 20rem; */
   /* margin-bottom: 20px; */
   margin: 0px;
   padding: 0px;
-  padding-top: 50px;
+  /* padding-top: 50px; */
   
 }
 #AboutTab{
    
-    background-color: #7E99A3;
+    /* background-color: rgb(3 132 177); */
     border-radius: 10px;
-    width: 60%;
+    width: 80%;
     margin: auto;
     display: grid;
-    grid-template-columns: 40% 60%;
+    grid-template-columns: 30% 70%;
     gap: 10px;
     margin-bottom: 20px;
-    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+    /* box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px; */
 }
 
 #AboutBottom{
-    background-color: #4C585B;
+    background-color: transparent;
     height: 50px;
 }
 
@@ -34,7 +41,7 @@ body{
     padding: 20px;
 }
 #AboutContent1{
-    color: #F4EDD3;
+    color: grey;
 }
 .Contactlink{
     text-decoration: none;
@@ -70,7 +77,7 @@ body{
 @media ( max-width: 1100px) {
     #AboutTab{
    
-        background-color: #7E99A3;
+        /* background-color: rgb(3 132 177); */
         border-radius: 10px;
         width: 60%;
         margin: auto;
@@ -78,8 +85,7 @@ body{
         grid-template-columns: auto;
         gap: 50px;
         margin-bottom: 20px;
-        box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
-    }
+        box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;    }
     #AboutTab  img {
       width: 90%;
       margin: auto;
@@ -99,7 +105,7 @@ body{
     }
     #AboutContent{
         display: grid;
-        grid-template-rows: 60% 40%;
-        padding: 20px;
+        grid-template-rows: 70% 30%;
+        gap: 10px;
     }
 }

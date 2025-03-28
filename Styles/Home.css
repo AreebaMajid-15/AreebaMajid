@@ -1,0 +1,131 @@
+body{
+    margin: 0px;
+    padding: 0px;
+  
+      /* background-color: orange; */
+  
+}
+
+ * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+            #Home {
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                height: 100vh;
+                font-family: Arial, sans-serif;
+                text-align: center;
+                padding: 20px;
+                color: black;
+                
+                /* Gradient background (dark at top, light at middle, white at bottom) */
+                background: linear-gradient(to bottom, 
+                rgb(65 104 231) 0%,       /* Fully black at the top */
+                rgb(65 104 231) 30%,   /* Slightly transparent black in middle */
+                    rgba(255, 255, 255, 1) 100% /* Fully white at the bottom */
+                );
+            }
+        .container {
+            font-size: 1.5rem;
+            line-height: 1.6;
+        }
+        .name {
+            font-size: 3rem;
+            font-weight: bold;
+            color: black;
+        }
+        .changing-text {
+            font-weight: bold;
+            color: red;
+            display: inline;
+        }
+        .cursor {
+            display: inline-block;
+            width: 6px;
+            height: 24px;
+            background-color: red;
+            animation: blink 1s infinite;
+        }
+        @keyframes blink {
+            50% { opacity: 0; }
+        }
+
+        .buttons {
+            margin-top: 30px;
+        }
+
+        .button {
+            display: inline-block;
+            margin: 10px;
+            padding: 12px 24px;
+            background-color: transparent;
+            color: black;
+            font-size: 1rem;
+            /* font-weight: bold; */
+            border: 2px solid black;
+            cursor: pointer;
+            border-radius: 30px;
+            text-decoration: none;
+            transition: background-color 0.3s ease;
+            
+        }
+
+        .button:hover {
+            background-color: black;
+            color: white;
+        }
+
+        .iconArrow{
+            justify-content: right;
+            width: 2%;
+            text-align: right;
+           margin-right: 20px;
+           overflow-clip-margin: content-box;
+    overflow: clip;
+        }
+
+        /* Responsive styles */
+        @media (max-width: 768px) {
+            .container {
+                font-size: 1.2rem;
+            }
+            .name {
+                font-size: 2rem;
+            }
+            .button {
+                padding: 10px 20px;
+            }
+        }
+        @media (max-width: 480px) {
+            .container {
+                font-size: 1rem;
+            }
+            .name {
+                font-size: 1.5rem;
+            }
+            .cursor {
+                height: 18px;
+            }
+            .button {
+                padding: 8px 16px;
+                font-size: 0.9rem;
+            }
+        }
+
+        /* .arrow {
+            /* position: absolute; */
+            /* right: -5rem;
+            bottom: 2.5rem; */
+        
+/* 
+        .ArrowImg {
+            overflow-clip-margin: content-box;
+            overflow: clip;
+            text-align: right;
+            width: 100px;
+            height: 100px;
+        } */
